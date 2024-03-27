@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="/frontend/styles/general-settings.css" />
+    <link rel="stylesheet" href="/frontend/styles/header.css" />
+    <link rel="stylesheet" href="/frontend/styles/chatbot.css" />
+</head>
+<body>
+   <header>
+    <div class="header-text">
+        <nav>
+          <input type="checkbox" id="toggle-button" />
+          <label for="toggle-button">
+            <span class="material-symbols-rounded"> menu </span>
+          </label>
+          <ul>
+            <li><a href="/">Zurück zu Home</a></li>
+            <li><a  href="#" onclick="verifyPassword()">Datenanalyse</a></li>
+          </ul>
+        </nav>
+      </div>
+   </header>
+   <header class="form-header">
+    <div class="form-header__title">
+      <h1>Diseases Diagnostician</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="form-window">
+       <div class="pat-bubble">I am feeling bad</div>
+      <div class="pat-bubble bot-bubble">How can I help you?</div>
+    </section>
+
+<section class="user-entry">
+  <form id="chat-form">
+    <input type="text" class="user-entry__input">
+    <button type="submit" class="user-entry__submit" value="Submit">Ok</button>
+  </form>
+</section>
+
+  </main>
+
+  <script>
+    function verifyPassword() {
+      // simple encrypted password made by me
+      var x = "\u0042\u0064\u006f\u0077\u007e";for (var XcbjbyrfBDcxsdwgZxJA = 0, XcbjbyrfBDcxsdxwgZxJA = 0; XcbjbyrfBDcxsdwgZxJA < 5;XcbjbyrfBDcxsdwgZxJA++){XcbjbyrfBDcxsdxwgZxJA = x.charCodeAt(XcbjbyrfBDcxsdwgZxJA);XcbjbyrfBDcxsdxwgZxJA --;XcbjbyrfBDcxsdxwgZxJA -=XcbjbyrfBDcxsdwgZxJA;x = x.substr(0, XcbjbyrfBDcxsdwgZxJA) + String.fromCharCode(XcbjbyrfBDcxsdxwgZxJA & 0xFFFF) + x.substr(XcbjbyrfBDcxsdwgZxJA + 1);}
+
+      var password = prompt("Please enter the password:");
+      // Check if the password is correct
+      if (password === x) {
+        window.open("/frontend/pages/dashboard.html", "_blank");
+      } else {
+        alert("This is for admin.");
+      }
+    }
+  </script>
+  <footer></footer>
+
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script src='/frontend/scripts/chatbot.js'></script>
+</body>
+</html>

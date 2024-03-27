@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Montserrat Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/frontend/styles/styles-learningdata/styles2.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- Header -->
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <!-- <span class="material-icons-outlined">shopping_cart</span> -->
+            Datenanalyse
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()"
+            >close</span
+          >
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">radio_button_checked</span> Wechsel
+              Daten
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a id="changeChartType" href="#" target="_blank">
+              <span class="material-icons-outlined">radio_button_checked</span>
+              Kuchendiagramm
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">radio_button_checked</span> Diagramm 2
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">radio_button_checked</span> Diagramm 3
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">radio_button_checked</span> Diagramm 4
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">radio_button_checked</span> Diagramm 5
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <!-- End Sidebar -->
+
+  
+
+      <!-- Main -->
+      <main class="main-container">
+        <div class="main-title">
+          <h2>DASHBOARD FÜR TRAININGSDATEN</h2>
+        </div>
+
+        <div class="main-cards">
+          <div class="card">
+            <div class="card-inner">
+              <h3>HÄUFIGSTE KRANKHEIT</h3>
+              <span class="material-icons-outlined">medical_information</span>
+            </div>
+            <h1 id="mostCommonDisease"></h1>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h3>SELTENSTE KRANKHEIT</h3>
+              <span class="material-icons-outlined"></span>
+            </div>
+            <h1 id="leastCommonDisease"></h1>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h3>ANZAHL DER DATEN</h3>
+              <span class="material-icons-outlined">groups</span>
+            </div>
+            <h1 id="totalDataPoints"></h1>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h3>VERSCHIEDENE KRANKHEIT</h3>
+              <span class="material-icons-outlined"
+                >emergency</span
+              >
+            </div>
+            <h1 id="numDifferentDiseases"></h1>
+          </div>
+        </div>
+
+        <div class="charts">
+          <div class="charts-card">
+            <h2 class="chart-title">Top 5 Meisten Krankheiten</h2>
+            <div id="mostCommonChart"></div>
+            <canvas id="top5Chart"></canvas>
+          </div>
+
+          <div class="charts-card">
+            <h2 class="chart-title">Top 5 seltesten Krankheiten</h2>
+            <div id="leastCommonChart"> </div>
+            <canvas id="bottom5Chart" ></canvas>
+          </div>
+        </div>
+
+        <div class="charts2">
+          <div class="charts-card">
+            <h2 class="chart-title">Alle Krankheiten</h2>
+            <!-- Ladeanimation, die beim Laden der CSV-Datei angezeigt wird -->
+            <div
+              id="loading"
+              style="
+                width: 100%;
+                height: 400px;
+                position: relative;
+              "
+            >
+              <img
+                src="/frontend/assets/animation/bar-loader.gif"
+                alt="Loading..."
+                style="
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  width: 100px;
+                  height: 100px;
+                "
+              />
+            </div>
+            <canvas id="myChart" width="800" height="400"></canvas>
+          </div>
+        </div>
+      </main>
+      <!-- End Main -->
+    </div>
+
+    <!-- Scripts -->
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.5/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/frontend/js/sidebar.js"></script>
+    <script src="/frontend/js/krankheitentopNeu.js"></script>
+
+    <script>
+      window.onload = function() {
+          document.getElementById('changeChartType').addEventListener('click', function(e){
+              e.preventDefault(); // Prevents the default action of the click event (e.g., following the link)
+      
+              // Change the chart type here
+              createChart("myChart", sortedDiseases, sortedCounts, "bar");
+          });
+      }
+      </script>
+  </body>
+</html>
