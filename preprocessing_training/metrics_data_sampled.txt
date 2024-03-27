@@ -1,0 +1,532 @@
+LinearSVC:
+Training...
+Training finished
+Testing...
+Finished Testing:
+                                       precision    recall  f1-score   support
+
+                            Achalasia       0.81      0.83      0.82       140
+                          Acid Reflux       0.63      0.69      0.66       148
+                     Acoustic Neuroma       0.78      0.80      0.79       134
+                               Acupan       0.25      0.18      0.21       136
+      Adhesive Capsulitis Of Shoulder       0.83      0.79      0.81       133
+  Adult Respiratory Distress Syndrome       0.51      0.58      0.55       149
+                          Agoraphobia       0.32      0.29      0.31       162
+                                 Alli       0.78      0.89      0.83       140
+       Alpha 1-antitrypsin Deficiency       0.76      0.74      0.75       152
+                            Amblyopia       0.68      0.78      0.73       128
+                          Amenorrhoea       0.56      0.55      0.56       157
+                            Amiloride       0.69      0.77      0.72       159
+                           Amiodarone       0.68      0.67      0.67       144
+                          Amisulpride       0.37      0.32      0.34       146
+                        Amitriptyline       0.75      0.75      0.75       151
+                           Amlodipine       0.79      0.77      0.78       137
+                          Amyloidosis       0.08      0.03      0.05       152
+                              Anaemia       0.71      0.81      0.76       154
+                       Ankle Problems       0.75      0.78      0.77       157
+                     Anogenital Warts       0.41      0.39      0.40       132
+                             Antabuse       0.70      0.92      0.80       143
+             Antenatal Investigations       0.54      0.56      0.55       160
+                              Aphasia       0.35      0.42      0.38       125
+           Arnold-Chiari Malformation       0.87      0.79      0.83       160
+           Arthritis - Osteoarthritis       0.64      0.61      0.63       145
+               Arthritis - Rheumatoid       0.77      0.69      0.73       175
+                 Atrial Septal Defect       0.42      0.44      0.43       133
+                   Atrophic Vaginitis       0.67      0.58      0.62       144
+                       B12 Deficiency       0.77      0.76      0.76       140
+                  Bacterial Vaginosis       0.65      0.76      0.70       139
+                         Baker's Cyst       0.79      0.84      0.82       143
+                            Balanitis       0.70      0.72      0.71       144
+                     Bartholin's Cyst       0.86      0.94      0.89       154
+                            Bed Sores       0.54      0.62      0.58       146
+              Benign Postural Vertigo       0.61      0.69      0.65       148
+         Benign Prostatic Hyperplasia       0.79      0.80      0.79       147
+                             Beriberi       0.63      0.48      0.54       159
+           Bipolar Affective Disorder       0.80      0.72      0.76       151
+                          Blepharitis       0.89      0.88      0.88       141
+                         Brain Tumour       0.44      0.34      0.38       154
+                       Bronchiectasis       0.81      0.66      0.73       143
+                 Budd-Chiari Syndrome       0.75      0.69      0.72       155
+                              Bunions       0.88      0.85      0.86       158
+                        Campylobacter       0.50      0.54      0.52       142
+                    Cancer - Prostate       0.82      0.79      0.81       148
+                    Candida - Genital       0.50      0.57      0.53       148
+                             Cataract       0.94      0.92      0.93       157
+                 Cervical Spondylosis       0.59      0.59      0.59       140
+         Cholelithiasis/Cholecystitis       0.68      0.86      0.76       135
+             Chronic Fatigue Syndrome       0.56      0.62      0.59       154
+                             Cipralex       0.85      0.79      0.82       157
+                           Citalopram       0.70      0.73      0.72       154
+                         Clomipramine       0.38      0.49      0.43       144
+                            Club Foot       0.64      0.67      0.65       152
+                    Cluster Headaches       0.59      0.58      0.58       153
+                      Coeliac Disease       0.75      0.81      0.78       150
+                 Colitis - Ulcerative       0.75      0.72      0.74       162
+                              Colofac       0.55      0.55      0.55       143
+   Combined Oral Contraceptives (COC)       0.69      0.67      0.68       166
+                 Compartment Syndrome       0.55      0.42      0.48       139
+            Congenital Hypothyroidism       0.68      0.76      0.71       144
+               Coronavirus (COVID-19)       0.75      0.81      0.78       145
+Costochondritis and Tietze's Syndrome       0.75      0.86      0.80       147
+           Cranial Diabetes Insipidus       0.76      0.73      0.74       165
+                      Crohn's Disease       0.74      0.76      0.75       139
+                    Dialysis - Kidney       0.86      0.85      0.85       153
+                             Diazepam       0.76      0.82      0.79       147
+                        Disc Prolapse       0.72      0.70      0.71       158
+                          Diverticula       0.81      0.83      0.82       153
+                              Effexor       0.85      0.84      0.84       147
+                           Eletriptan       0.75      0.71      0.73       163
+                             Embolism       0.80      0.82      0.81       143
+                        Endometriosis       0.69      0.72      0.70       141
+                             Fibroids       0.82      0.88      0.85       143
+                Fibromyalgia Syndrome       0.62      0.53      0.57       160
+                           Fluoxetine       0.74      0.74      0.74       152
+                           Gabapentin       0.79      0.75      0.77       159
+                         Gastric Band       0.72      0.62      0.67       151
+               Genital Herpes Simplex       0.73      0.84      0.78       147
+               Genitourinary Prolapse       0.86      0.94      0.90       150
+                      Glandular Fever       0.76      0.79      0.78       144
+                      Grave's Disease       0.87      0.76      0.81       145
+                     Haemochromatosis       0.91      0.78      0.84       161
+                         Haemorrhoids       0.84      0.98      0.90       141
+                            Halitosis       0.69      0.73      0.71       172
+                               Hernia       0.78      0.75      0.76       160
+             Hidradenitis Suppurativa       0.86      0.87      0.87       153
+                           Hypnagogia       0.71      0.79      0.75       165
+                Klippel-Feil Syndrome       0.53      0.54      0.53       145
+                           Laryngitis       0.68      0.74      0.71       159
+                        Lichen Planus       0.83      0.75      0.78       139
+                     Lichen Sclerosus       0.78      0.74      0.76       145
+                               Livial       0.52      0.45      0.48       166
+                              Lustral       0.71      0.80      0.75       147
+                    Meniere's Disease       0.79      0.77      0.78       149
+                          Mirtazapine       0.81      0.84      0.82       153
+                   Multiple Sclerosis       0.65      0.53      0.58       155
+                     Neuropathic Pain       0.48      0.32      0.39       164
+                             Nocturia       0.55      0.55      0.55       151
+                             Orchitis       0.79      0.89      0.84       141
+                         Ovarian Cyst       0.74      0.76      0.75       173
+                        Panic Attacks       0.26      0.20      0.22       147
+                        Perimenopause       0.43      0.35      0.38       159
+            Polycystic Ovary Syndrome       0.83      0.81      0.82       148
+                 Postnatal Depression       0.36      0.40      0.38       156
+                      Pruritus Vulvae       0.49      0.35      0.41       161
+                       Pyelonephritis       0.73      0.79      0.76       151
+                  Rotator Cuff Injury       0.74      0.82      0.78       139
+                             Shingles       0.86      0.92      0.89       138
+                            Sinusitis       0.72      0.86      0.78       160
+                   Sjogren's Syndrome       0.74      0.69      0.71       145
+         Supraventricular Tachycardia       0.78      0.83      0.81       148
+                                  THR       0.71      0.87      0.78       140
+                   Temporal Arteritis       0.90      0.87      0.89       151
+                 Trigeminal Neuralgia       0.79      0.76      0.78       152
+
+                             accuracy                           0.69     17192
+                            macro avg       0.69      0.69      0.69     17192
+                         weighted avg       0.69      0.69      0.69     17192
+
+Saving model as linearsvc.pkl...
+Saved as linearsvc.pkl
+KNeighborsClassifier:
+Training...
+Training finished
+Testing...
+Finished Testing:
+C:\Users\paull\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\paull\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\paull\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+                                       precision    recall  f1-score   support
+
+                            Achalasia       0.44      0.03      0.05       140
+                          Acid Reflux       0.43      0.02      0.04       148
+                     Acoustic Neuroma       0.88      0.05      0.10       134
+                               Acupan       0.10      0.01      0.01       136
+      Adhesive Capsulitis Of Shoulder       0.50      0.01      0.01       133
+  Adult Respiratory Distress Syndrome       0.00      0.00      0.00       149
+                          Agoraphobia       0.17      0.49      0.25       162
+                                 Alli       0.00      0.00      0.00       140
+       Alpha 1-antitrypsin Deficiency       0.33      0.01      0.01       152
+                            Amblyopia       0.65      0.09      0.15       128
+                          Amenorrhoea       0.00      0.00      0.00       157
+                            Amiloride       1.00      0.01      0.01       159
+                           Amiodarone       1.00      0.01      0.03       144
+                          Amisulpride       0.07      0.04      0.05       146
+                        Amitriptyline       0.00      0.00      0.00       151
+                           Amlodipine       0.00      0.00      0.00       137
+                          Amyloidosis       0.33      0.01      0.01       152
+                              Anaemia       0.67      0.01      0.03       154
+                       Ankle Problems       0.56      0.03      0.06       157
+                     Anogenital Warts       0.29      0.12      0.17       132
+                             Antabuse       0.53      0.07      0.12       143
+             Antenatal Investigations       1.00      0.01      0.01       160
+                              Aphasia       0.40      0.02      0.03       125
+           Arnold-Chiari Malformation       0.00      0.00      0.00       160
+           Arthritis - Osteoarthritis       0.00      0.00      0.00       145
+               Arthritis - Rheumatoid       0.00      0.00      0.00       175
+                 Atrial Septal Defect       1.00      0.01      0.01       133
+                   Atrophic Vaginitis       0.00      0.00      0.00       144
+                       B12 Deficiency       0.00      0.00      0.00       140
+                  Bacterial Vaginosis       1.00      0.01      0.03       139
+                         Baker's Cyst       1.00      0.04      0.08       143
+                            Balanitis       0.90      0.06      0.12       144
+                     Bartholin's Cyst       1.00      0.03      0.05       154
+                            Bed Sores       0.00      0.00      0.00       146
+              Benign Postural Vertigo       0.83      0.03      0.06       148
+         Benign Prostatic Hyperplasia       0.91      0.14      0.25       147
+                             Beriberi       0.00      0.00      0.00       159
+           Bipolar Affective Disorder       0.25      0.01      0.03       151
+                          Blepharitis       0.00      0.00      0.00       141
+                         Brain Tumour       1.00      0.01      0.03       154
+                       Bronchiectasis       0.00      0.00      0.00       143
+                 Budd-Chiari Syndrome       0.00      0.00      0.00       155
+                              Bunions       0.91      0.06      0.12       158
+                        Campylobacter       0.86      0.04      0.08       142
+                    Cancer - Prostate       1.00      0.01      0.01       148
+                    Candida - Genital       0.00      0.00      0.00       148
+                             Cataract       1.00      0.16      0.27       157
+                 Cervical Spondylosis       0.00      0.00      0.00       140
+         Cholelithiasis/Cholecystitis       0.38      0.07      0.11       135
+             Chronic Fatigue Syndrome       0.00      0.00      0.00       154
+                             Cipralex       0.00      0.00      0.00       157
+                           Citalopram       0.01      0.87      0.02       154
+                         Clomipramine       0.25      0.43      0.32       144
+                            Club Foot       0.00      0.00      0.00       152
+                    Cluster Headaches       1.00      0.01      0.01       153
+                      Coeliac Disease       0.50      0.01      0.01       150
+                 Colitis - Ulcerative       0.00      0.00      0.00       162
+                              Colofac       0.00      0.00      0.00       143
+   Combined Oral Contraceptives (COC)       1.00      0.01      0.01       166
+                 Compartment Syndrome       0.00      0.00      0.00       139
+            Congenital Hypothyroidism       0.00      0.00      0.00       144
+               Coronavirus (COVID-19)       0.00      0.00      0.00       145
+Costochondritis and Tietze's Syndrome       0.00      0.00      0.00       147
+           Cranial Diabetes Insipidus       0.00      0.00      0.00       165
+                      Crohn's Disease       0.00      0.00      0.00       139
+                    Dialysis - Kidney       0.00      0.00      0.00       153
+                             Diazepam       0.00      0.00      0.00       147
+                        Disc Prolapse       0.00      0.00      0.00       158
+                          Diverticula       0.00      0.00      0.00       153
+                              Effexor       0.00      0.00      0.00       147
+                           Eletriptan       0.00      0.00      0.00       163
+                             Embolism       0.00      0.00      0.00       143
+                        Endometriosis       0.00      0.00      0.00       141
+                             Fibroids       1.00      0.01      0.01       143
+                Fibromyalgia Syndrome       0.00      0.00      0.00       160
+                           Fluoxetine       0.00      0.00      0.00       152
+                           Gabapentin       0.00      0.00      0.00       159
+                         Gastric Band       0.00      0.00      0.00       151
+               Genital Herpes Simplex       0.80      0.03      0.05       147
+               Genitourinary Prolapse       0.00      0.00      0.00       150
+                      Glandular Fever       1.00      0.04      0.08       144
+                      Grave's Disease       0.00      0.00      0.00       145
+                     Haemochromatosis       0.00      0.00      0.00       161
+                         Haemorrhoids       0.71      0.18      0.28       141
+                            Halitosis       0.50      0.01      0.01       172
+                               Hernia       0.00      0.00      0.00       160
+             Hidradenitis Suppurativa       0.00      0.00      0.00       153
+                           Hypnagogia       1.00      0.03      0.06       165
+                Klippel-Feil Syndrome       1.00      0.01      0.01       145
+                           Laryngitis       0.00      0.00      0.00       159
+                        Lichen Planus       0.00      0.00      0.00       139
+                     Lichen Sclerosus       0.00      0.00      0.00       145
+                               Livial       0.00      0.00      0.00       166
+                              Lustral       1.00      0.01      0.01       147
+                    Meniere's Disease       0.00      0.00      0.00       149
+                          Mirtazapine       0.71      0.03      0.06       153
+                   Multiple Sclerosis       0.00      0.00      0.00       155
+                     Neuropathic Pain       0.00      0.00      0.00       164
+                             Nocturia       0.00      0.00      0.00       151
+                             Orchitis       0.00      0.00      0.00       141
+                         Ovarian Cyst       0.67      0.01      0.02       173
+                        Panic Attacks       0.03      0.01      0.01       147
+                        Perimenopause       0.00      0.00      0.00       159
+            Polycystic Ovary Syndrome       0.00      0.00      0.00       148
+                 Postnatal Depression       0.09      0.01      0.01       156
+                      Pruritus Vulvae       0.00      0.00      0.00       161
+                       Pyelonephritis       0.00      0.00      0.00       151
+                  Rotator Cuff Injury       0.50      0.01      0.01       139
+                             Shingles       0.50      0.01      0.01       138
+                            Sinusitis       0.00      0.00      0.00       160
+                   Sjogren's Syndrome       0.00      0.00      0.00       145
+         Supraventricular Tachycardia       1.00      0.01      0.01       148
+                                  THR       0.67      0.01      0.03       140
+                   Temporal Arteritis       0.00      0.00      0.00       151
+                 Trigeminal Neuralgia       0.00      0.00      0.00       152
+
+                             accuracy                           0.03     17192
+                            macro avg       0.31      0.03      0.03     17192
+                         weighted avg       0.30      0.03      0.03     17192
+
+Saving model as kneighborsclassifier.pkl...
+Saved as kneighborsclassifier.pkl
+MultinomialNB:
+Training...
+Training finished
+Testing...
+Finished Testing:
+C:\Users\paull\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\paull\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\Users\paull\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+                                       precision    recall  f1-score   support
+
+                            Achalasia       0.98      0.36      0.52       140
+                          Acid Reflux       0.26      0.53      0.35       148
+                     Acoustic Neuroma       0.78      0.64      0.70       134
+                               Acupan       0.75      0.02      0.04       136
+      Adhesive Capsulitis Of Shoulder       0.85      0.63      0.72       133
+  Adult Respiratory Distress Syndrome       0.42      0.21      0.28       149
+                          Agoraphobia       0.04      0.07      0.05       162
+                                 Alli       0.66      0.74      0.70       140
+       Alpha 1-antitrypsin Deficiency       0.84      0.28      0.42       152
+                            Amblyopia       0.50      0.67      0.57       128
+                          Amenorrhoea       0.36      0.55      0.44       157
+                            Amiloride       0.69      0.25      0.37       159
+                           Amiodarone       0.88      0.26      0.41       144
+                          Amisulpride       0.00      0.00      0.00       146
+                        Amitriptyline       0.77      0.07      0.12       151
+                           Amlodipine       0.94      0.22      0.36       137
+                          Amyloidosis       0.00      0.00      0.00       152
+                              Anaemia       0.79      0.34      0.48       154
+                       Ankle Problems       0.57      0.78      0.66       157
+                     Anogenital Warts       0.18      0.41      0.25       132
+                             Antabuse       0.75      0.62      0.67       143
+             Antenatal Investigations       1.00      0.04      0.08       160
+                              Aphasia       0.09      0.63      0.15       125
+           Arnold-Chiari Malformation       0.97      0.24      0.39       160
+           Arthritis - Osteoarthritis       0.80      0.14      0.24       145
+               Arthritis - Rheumatoid       0.86      0.03      0.07       175
+                 Atrial Septal Defect       0.24      0.36      0.29       133
+                   Atrophic Vaginitis       1.00      0.14      0.24       144
+                       B12 Deficiency       0.71      0.42      0.53       140
+                  Bacterial Vaginosis       0.52      0.64      0.57       139
+                         Baker's Cyst       0.51      0.66      0.57       143
+                            Balanitis       0.53      0.56      0.54       144
+                     Bartholin's Cyst       0.91      0.66      0.76       154
+                            Bed Sores       0.49      0.23      0.31       146
+              Benign Postural Vertigo       0.27      0.76      0.39       148
+         Benign Prostatic Hyperplasia       0.37      0.88      0.52       147
+                             Beriberi       0.73      0.07      0.13       159
+           Bipolar Affective Disorder       0.95      0.13      0.22       151
+                          Blepharitis       0.97      0.62      0.76       141
+                         Brain Tumour       0.33      0.01      0.01       154
+                       Bronchiectasis       0.96      0.17      0.29       143
+                 Budd-Chiari Syndrome       0.89      0.21      0.34       155
+                              Bunions       0.76      0.47      0.58       158
+                        Campylobacter       0.07      0.83      0.14       142
+                    Cancer - Prostate       1.00      0.22      0.36       148
+                    Candida - Genital       0.59      0.14      0.22       148
+                             Cataract       0.94      0.83      0.88       157
+                 Cervical Spondylosis       1.00      0.16      0.28       140
+         Cholelithiasis/Cholecystitis       0.30      0.77      0.44       135
+             Chronic Fatigue Syndrome       0.33      0.26      0.29       154
+                             Cipralex       1.00      0.06      0.11       157
+                           Citalopram       0.31      0.51      0.38       154
+                         Clomipramine       0.12      0.78      0.20       144
+                            Club Foot       0.90      0.17      0.29       152
+                    Cluster Headaches       0.45      0.33      0.38       153
+                      Coeliac Disease       0.74      0.15      0.25       150
+                 Colitis - Ulcerative       1.00      0.07      0.13       162
+                              Colofac       0.18      0.42      0.25       143
+   Combined Oral Contraceptives (COC)       0.95      0.11      0.20       166
+                 Compartment Syndrome       0.74      0.21      0.33       139
+            Congenital Hypothyroidism       0.40      0.58      0.48       144
+               Coronavirus (COVID-19)       0.92      0.16      0.27       145
+Costochondritis and Tietze's Syndrome       0.83      0.27      0.40       147
+           Cranial Diabetes Insipidus       0.92      0.21      0.34       165
+                      Crohn's Disease       0.75      0.19      0.31       139
+                    Dialysis - Kidney       0.98      0.31      0.47       153
+                             Diazepam       0.86      0.22      0.35       147
+                        Disc Prolapse       0.92      0.30      0.45       158
+                          Diverticula       0.97      0.20      0.34       153
+                              Effexor       0.86      0.39      0.54       147
+                           Eletriptan       0.86      0.12      0.21       163
+                             Embolism       1.00      0.22      0.36       143
+                        Endometriosis       0.94      0.35      0.51       141
+                             Fibroids       0.80      0.67      0.73       143
+                Fibromyalgia Syndrome       0.42      0.12      0.19       160
+                           Fluoxetine       0.64      0.06      0.11       152
+                           Gabapentin       0.91      0.18      0.30       159
+                         Gastric Band       0.96      0.18      0.30       151
+               Genital Herpes Simplex       0.34      0.75      0.46       147
+               Genitourinary Prolapse       0.96      0.63      0.76       150
+                      Glandular Fever       0.58      0.46      0.51       144
+                      Grave's Disease       0.96      0.34      0.50       145
+                     Haemochromatosis       0.98      0.32      0.48       161
+                         Haemorrhoids       0.39      0.95      0.55       141
+                            Halitosis       0.74      0.35      0.48       172
+                               Hernia       0.96      0.14      0.24       160
+             Hidradenitis Suppurativa       0.97      0.25      0.40       153
+                           Hypnagogia       0.78      0.38      0.51       165
+                Klippel-Feil Syndrome       0.49      0.36      0.41       145
+                           Laryngitis       0.90      0.28      0.43       159
+                        Lichen Planus       0.97      0.22      0.36       139
+                     Lichen Sclerosus       0.46      0.70      0.56       145
+                               Livial       0.40      0.17      0.24       166
+                              Lustral       0.21      0.66      0.32       147
+                    Meniere's Disease       1.00      0.18      0.31       149
+                          Mirtazapine       0.47      0.61      0.53       153
+                   Multiple Sclerosis       0.67      0.01      0.03       155
+                     Neuropathic Pain       0.60      0.04      0.07       164
+                             Nocturia       0.61      0.17      0.26       151
+                             Orchitis       0.96      0.38      0.54       141
+                         Ovarian Cyst       0.67      0.58      0.62       173
+                        Panic Attacks       0.04      0.63      0.07       147
+                        Perimenopause       0.00      0.00      0.00       159
+            Polycystic Ovary Syndrome       0.93      0.34      0.50       148
+                 Postnatal Depression       0.11      0.01      0.01       156
+                      Pruritus Vulvae       0.55      0.07      0.12       161
+                       Pyelonephritis       0.72      0.38      0.50       151
+                  Rotator Cuff Injury       0.80      0.68      0.74       139
+                             Shingles       0.91      0.67      0.78       138
+                            Sinusitis       0.94      0.42      0.58       160
+                   Sjogren's Syndrome       0.85      0.28      0.42       145
+         Supraventricular Tachycardia       0.84      0.43      0.57       148
+                                  THR       0.22      0.92      0.36       140
+                   Temporal Arteritis       0.47      0.68      0.55       151
+                 Trigeminal Neuralgia       0.83      0.36      0.50       152
+
+                             accuracy                           0.35     17192
+                            macro avg       0.67      0.36      0.38     17192
+                         weighted avg       0.67      0.35      0.37     17192
+
+Saving model as multinomialnb.pkl...
+Saved as multinomialnb.pkl
+DecisionTreeClassifier:
+Training...
+Training finished
+Testing...
+Finished Testing:
+                                       precision    recall  f1-score   support
+
+                            Achalasia       0.57      0.61      0.59       140
+                          Acid Reflux       0.27      0.28      0.27       148
+                     Acoustic Neuroma       0.48      0.55      0.51       134
+                               Acupan       0.07      0.09      0.08       136
+      Adhesive Capsulitis Of Shoulder       0.59      0.66      0.62       133
+  Adult Respiratory Distress Syndrome       0.14      0.16      0.15       149
+                          Agoraphobia       0.12      0.12      0.12       162
+                                 Alli       0.63      0.68      0.65       140
+       Alpha 1-antitrypsin Deficiency       0.55      0.55      0.55       152
+                            Amblyopia       0.33      0.38      0.35       128
+                          Amenorrhoea       0.21      0.20      0.21       157
+                            Amiloride       0.41      0.30      0.34       159
+                           Amiodarone       0.24      0.24      0.24       144
+                          Amisulpride       0.08      0.08      0.08       146
+                        Amitriptyline       0.48      0.46      0.47       151
+                           Amlodipine       0.54      0.58      0.56       137
+                          Amyloidosis       0.05      0.03      0.04       152
+                              Anaemia       0.48      0.49      0.49       154
+                       Ankle Problems       0.60      0.54      0.57       157
+                     Anogenital Warts       0.20      0.17      0.18       132
+                             Antabuse       0.51      0.56      0.53       143
+             Antenatal Investigations       0.32      0.28      0.30       160
+                              Aphasia       0.10      0.12      0.11       125
+           Arnold-Chiari Malformation       0.53      0.58      0.56       160
+           Arthritis - Osteoarthritis       0.31      0.31      0.31       145
+               Arthritis - Rheumatoid       0.41      0.33      0.36       175
+                 Atrial Septal Defect       0.22      0.24      0.23       133
+                   Atrophic Vaginitis       0.19      0.21      0.20       144
+                       B12 Deficiency       0.43      0.41      0.42       140
+                  Bacterial Vaginosis       0.31      0.35      0.33       139
+                         Baker's Cyst       0.59      0.57      0.58       143
+                            Balanitis       0.43      0.49      0.46       144
+                     Bartholin's Cyst       0.62      0.60      0.61       154
+                            Bed Sores       0.22      0.23      0.22       146
+              Benign Postural Vertigo       0.27      0.26      0.27       148
+         Benign Prostatic Hyperplasia       0.56      0.50      0.53       147
+                             Beriberi       0.19      0.21      0.20       159
+           Bipolar Affective Disorder       0.60      0.58      0.59       151
+                          Blepharitis       0.75      0.72      0.74       141
+                         Brain Tumour       0.11      0.11      0.11       154
+                       Bronchiectasis       0.53      0.57      0.55       143
+                 Budd-Chiari Syndrome       0.55      0.48      0.51       155
+                              Bunions       0.57      0.51      0.54       158
+                        Campylobacter       0.16      0.14      0.15       142
+                    Cancer - Prostate       0.51      0.53      0.52       148
+                    Candida - Genital       0.29      0.26      0.27       148
+                             Cataract       0.80      0.65      0.72       157
+                 Cervical Spondylosis       0.22      0.24      0.23       140
+         Cholelithiasis/Cholecystitis       0.50      0.53      0.52       135
+             Chronic Fatigue Syndrome       0.40      0.44      0.42       154
+                             Cipralex       0.60      0.64      0.62       157
+                           Citalopram       0.50      0.47      0.49       154
+                         Clomipramine       0.21      0.26      0.23       144
+                            Club Foot       0.33      0.39      0.36       152
+                    Cluster Headaches       0.22      0.23      0.23       153
+                      Coeliac Disease       0.55      0.53      0.54       150
+                 Colitis - Ulcerative       0.32      0.30      0.31       162
+                              Colofac       0.31      0.32      0.32       143
+   Combined Oral Contraceptives (COC)       0.30      0.27      0.29       166
+                 Compartment Syndrome       0.17      0.17      0.17       139
+            Congenital Hypothyroidism       0.35      0.40      0.38       144
+               Coronavirus (COVID-19)       0.45      0.49      0.47       145
+Costochondritis and Tietze's Syndrome       0.36      0.44      0.40       147
+           Cranial Diabetes Insipidus       0.44      0.38      0.41       165
+                      Crohn's Disease       0.37      0.47      0.41       139
+                    Dialysis - Kidney       0.46      0.48      0.47       153
+                             Diazepam       0.48      0.40      0.44       147
+                        Disc Prolapse       0.45      0.39      0.41       158
+                          Diverticula       0.63      0.56      0.59       153
+                              Effexor       0.61      0.61      0.61       147
+                           Eletriptan       0.46      0.47      0.46       163
+                             Embolism       0.33      0.38      0.35       143
+                        Endometriosis       0.40      0.46      0.43       141
+                             Fibroids       0.68      0.66      0.67       143
+                Fibromyalgia Syndrome       0.23      0.19      0.21       160
+                           Fluoxetine       0.55      0.47      0.51       152
+                           Gabapentin       0.44      0.42      0.43       159
+                         Gastric Band       0.44      0.45      0.45       151
+               Genital Herpes Simplex       0.54      0.54      0.54       147
+               Genitourinary Prolapse       0.53      0.57      0.55       150
+                      Glandular Fever       0.49      0.47      0.48       144
+                      Grave's Disease       0.43      0.53      0.48       145
+                     Haemochromatosis       0.48      0.38      0.42       161
+                         Haemorrhoids       0.64      0.70      0.67       141
+                            Halitosis       0.46      0.33      0.38       172
+                               Hernia       0.62      0.59      0.61       160
+             Hidradenitis Suppurativa       0.48      0.45      0.46       153
+                           Hypnagogia       0.52      0.47      0.49       165
+                Klippel-Feil Syndrome       0.24      0.22      0.23       145
+                           Laryngitis       0.40      0.45      0.43       159
+                        Lichen Planus       0.40      0.56      0.46       139
+                     Lichen Sclerosus       0.43      0.47      0.45       145
+                               Livial       0.23      0.16      0.19       166
+                              Lustral       0.55      0.56      0.56       147
+                    Meniere's Disease       0.38      0.40      0.39       149
+                          Mirtazapine       0.54      0.54      0.54       153
+                   Multiple Sclerosis       0.24      0.23      0.23       155
+                     Neuropathic Pain       0.16      0.14      0.15       164
+                             Nocturia       0.24      0.22      0.23       151
+                             Orchitis       0.56      0.70      0.62       141
+                         Ovarian Cyst       0.44      0.42      0.43       173
+                        Panic Attacks       0.10      0.10      0.10       147
+                        Perimenopause       0.13      0.11      0.12       159
+            Polycystic Ovary Syndrome       0.48      0.52      0.50       148
+                 Postnatal Depression       0.11      0.10      0.10       156
+                      Pruritus Vulvae       0.12      0.11      0.12       161
+                       Pyelonephritis       0.36      0.36      0.36       151
+                  Rotator Cuff Injury       0.50      0.50      0.50       139
+                             Shingles       0.76      0.83      0.80       138
+                            Sinusitis       0.44      0.47      0.46       160
+                   Sjogren's Syndrome       0.29      0.30      0.29       145
+         Supraventricular Tachycardia       0.67      0.74      0.71       148
+                                  THR       0.55      0.56      0.56       140
+                   Temporal Arteritis       0.70      0.61      0.65       151
+                 Trigeminal Neuralgia       0.45      0.44      0.45       152
+
+                             accuracy                           0.40     17192
+                            macro avg       0.40      0.41      0.40     17192
+                         weighted avg       0.40      0.40      0.40     17192
+
+Saving model as decisiontreeclassifier.pkl...
+Saved as decisiontreeclassifier.pkl
+
+Process finished with exit code 0
+
+
