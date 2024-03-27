@@ -1,0 +1,116 @@
+header {
+  padding: 25px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.header-text {
+  width: 850px;
+}
+
+.header-bild {
+  height: 250px;
+  /* will-change: 600px; */
+
+  /* responsive - max height & width */
+  max-height: 80vw;
+  max-width: 80vw;
+
+  /* overflow sorgt dafür dass das Bild abgeschnitten wird */
+  overflow: hidden;
+  border-radius: 50%;
+  border: 20px solid var(--main-brand-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bild img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* I have edited that in order the chatbot to match the upper header*/
+nav {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  position: relative;
+  padding: 3px;
+}
+
+nav a:hover {
+  color: var(--text-color);
+}
+
+nav a::after {
+  content: "";
+  height: 2px;
+  width: 0px;
+  background: var(--main-brand-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 150ms ease-in-out;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* ID nutzt man wenn es nur einmal benutzt wird */
+#toggle-button {
+  display: none;
+}
+
+label[for="toggle-button"] {
+  display: none;
+}
+
+label[for="toggle-button"] span {
+  font-size: 40px;
+}
+
+.steps {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--secondary-text-color);
+  padding: 0px;
+}
+
+
+@media (max-width: 800px) {
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--secondary-color);
+    padding: 15px;
+    border-radius: 0 0 25px 0;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+  #toggle-button:checked ~ ul {
+    display: flex;
+  }
+  label[for="toggle-button"] {
+    display: block;
+  }
+}
